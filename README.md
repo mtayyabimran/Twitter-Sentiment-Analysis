@@ -1,12 +1,12 @@
-🐦 ## Twitter Sentiment Analysis
+🐦 **Twitter Sentiment Analysis**
 
 
-📌 # Overview
+📌 **Overview**
 
 This project is a Machine Learning application designed to analyze and classify the sentiment of tweets. It uses Natural Language Processing (NLP) techniques to categorize text into Positive, Negative, Neutral, or Irrelevant sentiments. The project consists of a training module to build the model and a Streamlit web application for real-time user interaction.
 
 
-🚀 Features
+🚀 **Features**
 
 1. Data Preprocessing: text cleaning pipeline including tokenization, stopword removal, and lemmatization.
 
@@ -18,7 +18,7 @@ This project is a Machine Learning application designed to analyze and classify 
 
 5. Transparency: View how the model "sees" your text (processed output) before prediction.
 
-🛠️ Technology Stack
+🛠️ **Technology Stack**
 
 1. Language: Python
 
@@ -35,7 +35,7 @@ This project is a Machine Learning application designed to analyze and classify 
 7. Model Persistence: Joblib
 
 
-📂 Project Structure
+📂 **Project Structure**
 
 ├── Dataset
 
@@ -54,7 +54,7 @@ This project is a Machine Learning application designed to analyze and classify 
 └── README.md
 
 
-🏃‍♂️ Usage
+🏃‍♂️ **Usage**
 
 1. Training the Model
 
@@ -73,7 +73,7 @@ The app will load the saved models (sentiment_model.pkl and label_encoder.pkl).
 Enter a tweet in the text area and click "Analyze Sentiment".
 
 
-🧠 Model Logic
+🧠** Model Logic**
 
 The text data goes through the following pipeline:
 
@@ -88,6 +88,6 @@ The text data goes through the following pipeline:
 5. Classification: Predicting the category using Random Forest.
 
 
-📊 Dataset
+📊 **Dataset**
 
 The model is trained on the twitter_training.csv dataset. Ensure this file is placed in the Dataset/ folder before running training.py.
