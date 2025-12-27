@@ -1,30 +1,27 @@
 🐦 Twitter Sentiment Analysis
+
 📌 Overview
+
 This project is a Machine Learning application designed to analyze and classify the sentiment of tweets. It uses Natural Language Processing (NLP) techniques to categorize text into Positive, Negative, Neutral, or Irrelevant sentiments. The project consists of a training module to build the model and a Streamlit web application for real-time user interaction.
 
 🚀 Features
-Data Preprocessing: text cleaning pipeline including tokenization, stopword removal, and lemmatization.
 
-Model Training: Uses TF-IDF Vectorization and a Random Forest Classifier to achieve accurate predictions.
-
-Interactive Web UI: A user-friendly interface built with Streamlit to input tweets and view results instantly.
-
-Visual Feedback: Dynamic color-coded results (Green for Positive, Red for Negative, Blue for Neutral).
-
-Transparency: View how the model "sees" your text (processed output) before prediction.
+1.Data Preprocessing: text cleaning pipeline including tokenization, stopword removal, and lemmatization.
+2. Model Training: Uses TF-IDF Vectorization and a Random Forest Classifier to achieve accurate predictions.
+3. Interactive Web UI: A user-friendly interface built with Streamlit to input tweets and view results instantly.
+4. Visual Feedback: Dynamic color-coded results (Green for Positive, Red for Negative, Blue for Neutral).
+5. Transparency: View how the model "sees" your text (processed output) before prediction.
 
 🛠️ Technology Stack
-Language: Python
 
-Web Framework: Streamlit
-
-Machine Learning: Scikit-learn (RandomForest, TfidfVectorizer)
-
-NLP: NLTK (Stopwords, WordNet, Punkt)
-
-Data Handling: Pandas, NumPy
+1. Language: Python
+2. Web Framework: Streamlit
+3. Machine Learning: Scikit-learn (RandomForest, TfidfVectorizer)
+4. NLP: NLTK (Stopwords, WordNet, Punkt)
+5. Data Handling: Pandas, NumPy
 
 📂 Project Structure
+
 ├── Dataset
 │   └── twitter_training.csv  # The dataset used for training
 ├── Models
