@@ -1,7 +1,7 @@
-🐦 Twitter Sentiment Analysis
+🐦 ## Twitter Sentiment Analysis
 
 
-📌 Overview
+📌 # Overview
 
 This project is a Machine Learning application designed to analyze and classify the sentiment of tweets. It uses Natural Language Processing (NLP) techniques to categorize text into Positive, Negative, Neutral, or Irrelevant sentiments. The project consists of a training module to build the model and a Streamlit web application for real-time user interaction.
 
