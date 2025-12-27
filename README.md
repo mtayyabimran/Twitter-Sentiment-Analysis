@@ -39,19 +39,19 @@ This project is a Machine Learning application designed to analyze and classify 
 
 ├── Dataset
 
-│   └── twitter_training.csv  # The dataset used for training
+│   └── twitter_training.csv
 
 ├── Models
 
-│   ├── sentiment_model.pkl   # Saved Random Forest Pipeline
+│   ├── sentiment_model.pkl
 
-│   └── label_encoder.pkl     # Saved Label Encoder
+│   └── label_encoder.pkl
 
-├── training.py               # Script to train and save the model
+├── training.py
 
-├── app.py                    # Streamlit web application
+├── app.py
 
-└── README.md                 # Project documentation
+└── README.md
 
 
 🏃‍♂️ Usage
@@ -89,4 +89,5 @@ The text data goes through the following pipeline:
 
 
 📊 Dataset
+
 The model is trained on the twitter_training.csv dataset. Ensure this file is placed in the Dataset/ folder before running training.py.
